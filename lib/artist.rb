@@ -1,10 +1,12 @@
 class Artist
   attr_accessor :name, :title, :author
   
+  AUTHOR = []
+  
   def initialize
     @name = name
     @title = title
-    @author = author
+    AUTHOR << author
   end
   
 end
